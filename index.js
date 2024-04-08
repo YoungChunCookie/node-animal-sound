@@ -61,7 +61,7 @@ app.get('/sound/:name', (req,res) => {  //http://localhost:3000/sound/dog
   }else if(name == 'cat') {
     res.json({'sound': '야옹'})
   }else if(name == 'pig') {
-    res.json({'sound': '꿀꿀'})
+    res.json({'sound': '뉴 꿀꿀꿀'})
   }else{
     res.json({'sound': '알수없음'})
   }
